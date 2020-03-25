@@ -95,7 +95,8 @@ body{
             margin-top: 26px;
             border-radius: 4px;
             border: none;
-            background-color: $btn-buy;
+            background-color: $btn-buy-bg;
+            color:$btn-buy-color;
             font-size: 24px;
             &:hover{
                 cursor: pointer;
@@ -287,8 +288,9 @@ body{
                     margin-top: 26px;
                     border-radius: 4px;
                     border: none;
-                    background-color: $btn-buy;
+                    background-color: $btn-buy-bg;
                     font-size: 24px;
+                    color:$btn-buy-color;
                     &:hover{
                         cursor: pointer;
                     }
