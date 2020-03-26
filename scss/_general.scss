@@ -253,6 +253,7 @@ body{
                 margin-top: 24px;
                 padding: 23px 24px 11px;
                 border: 1px solid $border-color;
+                
                 .delivery__title{
                     font-size: 24px;
                     color: #000;
@@ -270,8 +271,18 @@ body{
                     .delivery__product-item{
                         max-width: 110px;
                         margin-right: 10px;
+                        position: relative;
                         &:last-child{
                             margin-right: 0px;
+                            &:before{                  
+                                content: 'В подарок!';
+                                position: absolute;
+                                background-color: $gift-bg;
+                                padding: 8px 7px 5px;
+                                top: 7px;
+                                left:-30%;
+                                font-size: 14px;
+                            }
                         }
                         figure{
                             margin:0;
