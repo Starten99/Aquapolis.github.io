@@ -3,7 +3,7 @@
         width: 100%;
     }
 }
-@media (max-width: 1063px){
+@media (max-width: 1083px){
     .about-products__content{ 
         .about-products__info{ 
             .about-products__wrapper{
@@ -26,9 +26,22 @@
         }
     }
 }
+
 @media (max-width:895px) {
     .promo__buy {
         margin-top: 20px;
+    }
+    .reviews{
+        &__content{
+            .reviews__info{
+                .reviews__wrapper{
+                    justify-content: center;
+                    .reviews__item{
+                        margin:15px 15px 15px;
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 522px){
@@ -37,7 +50,7 @@
             .about-products__wrapper{
                 .about-products__item{
                     flex-wrap: wrap;
-                    justify-content: space-evenly;
+                    justify-content: center;
                     &-info{
                         max-width: 300px;
                         margin-left: 20px;
@@ -76,6 +89,7 @@
                     margin-bottom: 15px;
                     &:nth-last-child(-n+2){
                         margin-bottom: 0px;
+                        
                     }
                 } 
             }
@@ -172,7 +186,7 @@
 }
 // правила ТОЛЬКО для Edge
 @supports (-ms-ime-align:auto) {
-	    .promo{
+	.promo{
         &__content{
             justify-content: center;
         }

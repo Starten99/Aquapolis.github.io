@@ -66,8 +66,18 @@ body{
             .promo__item{
                 max-width: 110px;
                 margin-right: 10px;
+                position: relative;
                 &:last-child{
                     margin-right: 0px;
+                    &:before{                  
+                        content: 'В подарок!';
+                        position: absolute;
+                        background-color: $gift-bg;
+                        padding: 8px 7px 5px;
+                        top: 7px;
+                        left:-30%;
+                        font-size: 14px;
+                    }
                 }
                 figure{
                     margin:0;
@@ -213,7 +223,7 @@ body{
                 .reviews__item{
                     background-color: $bg-color-reviews;
                     padding: 18px 12px;
-                    margin:16px 15px 0px;
+                    margin:15px 15px 0px;
                     &-profile{
                         display: flex;                    
                         .reviews__item-data{
