@@ -253,8 +253,7 @@ body{
             .delivery__item{
                 margin-top: 24px;
                 padding: 23px 24px 11px;
-                border: 1px solid $border-color;
-                
+                border: 1px solid $border-color;    
                 .delivery__title{
                     font-size: 24px;
                     color: #000;
@@ -329,52 +328,16 @@ body{
                         text-decoration: none;
                     }
                 }
-                .delivery__body{     
-                    width: 100%;
-                    max-width: 425px;
-                    min-height: 340px;
-                    max-height: 343px;
-                    box-sizing: border-box;
+                .delivery__body{   
+                    max-width: 295px;             
                     height:auto;
-                    margin: 0 auto;
-                    background-color: $bg-color-reviews;       
-                    background-image: url(../img/delivery__item-bg.svg);
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
-                    padding-top: 50px;
-                    .delivery__list {
-                        max-width: 200px;
+                    box-sizing: border-box;  
+                    margin: 0 auto;    
+                    text-align: center;
+                    img{
+                        width: 100%;
                         height: auto;
-                        margin: 0 auto;
-                        color: #663300;
-                        font-size: 14px;
-                        padding: 0 !important;             
-                        border-image: url("../img/frame.svg");
-                        border-image-repeat:repeat;
-                        border-image-slice: 35;
-                        border-style: solid;
-	                    border-width: 14px; 
-                        border-top: 0;
-                        border-left: 0;
-                        border-right: 0;
-                        li {
-                            list-style-type: none;
-                            background-color: #ffffcc;     
-                            border-bottom: 1px solid $border-color;
-                            text-indent: 10px;
-                            height: auto;
-                            padding: 4px 0px 4px;
-                            &:before{
-                                content:'';
-                                background-color: #ffffcc;     
-                                height: 100%;
-                                border-left: 1px solid #ffaa9f;
-                                padding: 4px 10px 4px 0px;
-                            }
-                            
-                        }  
-                    }                  
+                    }     
                 }
             }
         }
