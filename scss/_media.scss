@@ -26,8 +26,7 @@
         }
     }
 }
-
-@media (max-width:895px) {
+@media (max-width:1001px) {
     .promo__buy {
         margin-top: 20px;
     }
@@ -38,10 +37,18 @@
                     justify-content: center;
                     .reviews__item{
                         margin:15px 15px 15px;
+                        &:last-child{
+                            margin-bottom: 0px;
+                        }
                     }
                 }
             }
         }
+    }
+}
+@media (max-width:895px) {
+    .promo__buy {
+        margin-top: 20px;
     }
 }
 @media (max-width: 522px){
