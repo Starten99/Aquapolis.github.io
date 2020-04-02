@@ -27,8 +27,19 @@
     }
 }
 @media (max-width:1001px) {
-    .promo__buy {
-        margin-top: 20px;
+    .promo__content{
+        .promo__buy {
+            margin:25px 0px 0px;
+        }
+    }
+    .delivery{
+        &__content{
+            .delivery__wrapper{
+                .delivery__item{
+                    margin: 24px 0px 0px;
+                }
+            }
+        }
     }
     .reviews{
         &__content{
