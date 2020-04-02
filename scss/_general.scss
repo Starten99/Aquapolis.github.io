@@ -12,6 +12,13 @@ body{
 }
 .promo{
     color:$txt-color;
+    &__subtitle{
+        font-weight: 400;
+        margin: 25px 15px 0px;
+        font-size: 28px; 
+        line-height: 40px;
+        text-align: center;
+    }
     &__content{
         display: flex;
         flex-wrap: wrap;
@@ -27,11 +34,6 @@ body{
                 font-size: 22px;
                 line-height: 33px;
                 margin-top: 4px;
-            }
-            .promo__subtitle{
-                margin-top: 25px;
-                font-size: 28px; 
-                line-height: 40px;
             }
             .promo__description{
                 margin-top: 25px;
@@ -61,11 +63,11 @@ body{
         .promo__wrapper{ 
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content:center;
             margin-top: 32px;
             .promo__item{
-                max-width: 110px;
-                margin-right: 10px;
+                max-width: 106px;
+                margin: 0 10px;
                 position: relative;
                 &:last-child{
                     margin-right: 0px;
@@ -268,20 +270,21 @@ body{
                 .delivery__title{
                     font-size: 24px;
                     color: #000;
-                    max-width: 424px;
+                    max-width: 470px;
                     font-weight: 400;
                     text-align: center;
-                    margin: 0px 0px 12px;
+                    margin: 0px auto 12px;
+                    text-align: center;
                 }
                 .delivery__product-wrapper{
                     width: 100%;
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     margin:0 auto;
                     margin-top: 32px; 
                     .delivery__product-item{
-                        max-width: 110px;
-                        margin-right: 10px;
+                        max-width: 106px;
+                        margin: 0 10px;
                         position: relative;
                         &:last-child{
                             margin-right: 0px;
